@@ -18,14 +18,6 @@ repositories {
 apply plugin: 'com.android.application'
 //apply plugin: 'me.tatarka.retrolambda'
 
-/*
-retrolambda {
-    jdk System.getenv("JAVA8_HOME")
-    oldJdk System.getenv("JAVA7_HOME")
-    javaVersion JavaVersion.VERSION_1_7
-}
-*/
-
 android {
     compileSdkVersion 22
     buildToolsVersion "22.0.1"
@@ -48,6 +40,8 @@ dependencies {
     //compile 'com.android.support:support-v4:22.1.1'
 
     compile project(':retrofit-facebook')
+    //compile 'com.github.yongjhih:retrofit-facebook:-SNAPSHOT'
+
     compile 'io.reactivex:rxjava:1.0.7'
     compile 'io.reactivex:rxandroid:0.24.0'
 
