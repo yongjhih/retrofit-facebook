@@ -1,5 +1,7 @@
 package retrofit.facebook;
 
+import java.util.List;
+
 import retrofit.Call;
 import rx.Observable;
 import retrofit.http.*;
@@ -10,9 +12,7 @@ public interface Facebook {
     @GET("/me")
     Observable<User> me();
 
-    //@Keep
-    public static class User {
-        String name;
-        String id;
-    }
+    // 10153423476374118/comments
+    @GET("/{fbid}/comments")
+    Observable<Comments> getComments(@Path("fbid") String fbid);
 }

@@ -1,5 +1,6 @@
 package retrofit.facebook;
 
+import com.github.aurae.retrofit.LoganSquareConverterFactory;
 import com.squareup.okhttp.HttpUrl;
 import com.squareup.okhttp.Interceptor;
 import com.squareup.okhttp.OkHttpClient;
@@ -8,7 +9,6 @@ import com.squareup.okhttp.Response;
 
 import java.io.IOException;
 
-import retrofit.GsonConverterFactory;
 import retrofit.Retrofit;
 import retrofit.RxJavaCallAdapterFactory;
 import rx.Observable;
@@ -22,7 +22,7 @@ public class Facebooks {
                 .baseUrl("https://graph.facebook.com/v2.5")
                 .client(client)
                 .addCallAdapterFactory(RxJavaCallAdapterFactory.create())
-                .addConverterFactory(GsonConverterFactory.create())
+                .addConverterFactory(LoganSquareConverterFactory.create())
                 .build();
 
         return retrofit.create(Facebook.class);
