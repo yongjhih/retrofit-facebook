@@ -19,7 +19,7 @@ public class Facebooks {
         client.interceptors().add(new AccessTokenInterceptor(token));
 
         Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl("https://graph.facebook.com/v2.5")
+                .baseUrl("https://graph.facebook.com/v2.3")
                 .client(client)
                 .addCallAdapterFactory(RxJavaCallAdapterFactory.create())
                 .addConverterFactory(LoganSquareConverterFactory.create())

@@ -15,15 +15,10 @@
  */
 package retrofit.facebook;
 
-
-import android.os.Bundle;
-
 import com.bluelinelabs.logansquare.annotation.JsonField;
 import com.bluelinelabs.logansquare.annotation.JsonObject;
 
 import java.util.Date;
-import java.util.List;
-import rx.Observable;
 
 @JsonObject(fieldDetectionPolicy = JsonObject.FieldDetectionPolicy.NONPRIVATE_FIELDS)
 public class Comment {
@@ -31,6 +26,13 @@ public class Comment {
     public String name;
     public User from;
     public String message;
-    //@JsonField(name = "created_time")
-    //public Date createdTime;
+    @JsonField(name = "created_time")
+    public Date createdTime;
+
+    @JsonField(name = "can_remove")
+    public boolean canRemove;
+    @JsonField(name = "like_count")
+    public int likeCount;
+    @JsonField(name = "user_likes")
+    public boolean userLikes;
 }
