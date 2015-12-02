@@ -40,4 +40,16 @@ public class MainTest {
 
         assertEquals(fb.me().toBlocking().single().id, "10152246635994118");
     }
+    @Test public void testComments() {
+        Facebook fb = Facebooks.create("");
+        List<Comment> commentList = fb.getComments("10153423476374118").toBlocking().single().data;
+
+        for (Comment comment : commentList) {
+            System.out.println("id: " + comment.id);
+            System.out.println("from: " + comment.from.name);
+            System.out.println("message: " + comment.message);
+        }
+
+        assertTrue(commentList.size() > 1);
+    }
 }
