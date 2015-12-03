@@ -28,7 +28,7 @@ repositories {
 }
 
 dependencies {
-    compile 'com.github.yongjhih:retrofit-facebook:1.0.0'
+    compile 'com.github.yongjhih:retrofit-facebook:-SNAPSHOT'
 }
 ```
 
