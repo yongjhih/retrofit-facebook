@@ -1,6 +1,5 @@
 package retrofit.facebook;
 
-import retrofit.Call;
 import rx.Observable;
 import retrofit.http.*;
 
