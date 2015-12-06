@@ -55,7 +55,7 @@ android {
 
 dependencies {
     compile 'com.squareup.retrofit:retrofit:1.9.0'
-    compile 'com.squareup.okhttp:okhttp:2.6.0'
+    compile 'com.squareup.okhttp:okhttp:2.2.0'
     compile 'io.reactivex:rxjava:1.0.7'
     apt 'com.infstory:logansquare-compiler:1.1.1'
     compile 'com.infstory:logansquare:1.1.1'
