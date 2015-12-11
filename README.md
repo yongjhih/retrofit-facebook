@@ -5,6 +5,8 @@
 [![Build Status](https://travis-ci.org/yongjhih/retrofit-facebook.svg)](https://travis-ci.org/yongjhih/retrofit-facebook)
 [![Join the chat at https://gitter.im/yongjhih/retrofit-facebook](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/yongjhih/retrofit-facebook?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
+![](art/retrofit-facebook.png)
+
 Unofficial Graph facebook SDK.
 
 ## Usage
