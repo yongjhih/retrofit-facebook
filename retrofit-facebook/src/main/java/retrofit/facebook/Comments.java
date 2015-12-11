@@ -16,8 +16,6 @@
 package retrofit.facebook;
 
 
-import android.os.Bundle;
-
 import com.bluelinelabs.logansquare.annotation.JsonField;
 import com.bluelinelabs.logansquare.annotation.JsonObject;
 

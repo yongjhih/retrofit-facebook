@@ -4,9 +4,7 @@ buildscript {
     }
 
     dependencies {
-        //classpath 'me.tatarka:gradle-retrolambda:2.0.0-alpha1'
         classpath 'com.android.tools.build:gradle:1.2.3'
-        classpath 'me.tatarka:gradle-retrolambda:3.2.4'
     }
 }
 
@@ -16,7 +14,6 @@ repositories {
 }
 
 apply plugin: 'com.android.application'
-//apply plugin: 'me.tatarka.retrolambda'
 
 android {
     compileSdkVersion 22

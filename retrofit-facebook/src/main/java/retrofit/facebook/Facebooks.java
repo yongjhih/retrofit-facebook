@@ -8,13 +8,17 @@ import retrofit.client.Client;
 import retrofit.client.OkClient;
 
 public class Facebooks {
-    public static Facebook create(String token) {
+    public static Facebook create(final String token) {
         OkHttpClient okClient = new OkHttpClient();
         Client client = new OkClient(okClient);
 
         RestAdapter restAdapter = new RestAdapter.Builder()
                 .setEndpoint("https://graph.facebook.com/v2.3")
-                .setRequestInterceptor(request -> request.addEncodedQueryParam("access_token", token))
+                .setRequestInterceptor(new RequestInterceptor() {
+                    @Override public void intercept(RequestInterceptor.RequestFacade request) {
+                        request.addEncodedQueryParam("access_token", token);
+                    }
+                })
                 .setClient(client)
                 .build();
 
