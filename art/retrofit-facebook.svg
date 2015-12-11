@@ -14,7 +14,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="Square,_Inc._logo.svg"
+   sodipodi:docname="retrofit-facebook.svg"
    inkscape:export-filename="retrofit-facebook.png"
    inkscape:export-xdpi="158.82353"
    inkscape:export-ydpi="158.82353">
@@ -38,9 +38,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.3198416"
-     inkscape:cx="370.671"
-     inkscape:cy="281.97801"
+     inkscape:zoom="3.7330758"
+     inkscape:cx="141.89065"
+     inkscape:cy="19.123277"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -437,67 +437,59 @@
          id="tspan8454-6-7"
          x="884.03589"
          y="1287.2706">Facebook</tspan></text>
-    <g
-       id="g8563"
-       transform="translate(3.6785549,-3.2922811)">
-      <g
-         transform="translate(131.07634,75.542711)"
-         id="g8556">
-        <rect
-           style="opacity:1;fill:#3765a3;fill-opacity:1;stroke:none;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           id="rect8155-11-0-9"
-           width="53.415501"
-           height="53.415501"
-           x="657.25507"
-           y="976.51532"
-           ry="8.9251375" />
-        <rect
-           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           id="rect8155-1-3-9-88-1"
-           width="35.231499"
-           height="27.19523"
-           x="666.13367"
-           y="986.88873"
-           ry="4.5440211" />
-        <rect
-           style="opacity:1;fill:#3765a3;fill-opacity:1;stroke:none;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           id="rect8155-8-7-4-0-3"
-           width="15.721583"
-           height="12.135507"
-           x="675.88861"
-           y="994.41864"
-           ry="2.0277085" />
-        <rect
-           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           id="rect8091-4-5-6-1"
-           width="10.715025"
-           height="14.733158"
-           x="666.1366"
-           y="1006.1118"
-           ry="1.4127687" />
-        <rect
-           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           id="rect8091-1-9-8-2-7"
-           width="9.7998562"
-           height="13.423101"
-           x="-242.7713"
-           y="1190.0553"
-           ry="1.2871468"
-           transform="matrix(0.66112085,-0.75027943,0.7156065,0.69850364,0,0)"
-           inkscape:transform-center-x="2.3819523"
-           inkscape:transform-center-y="0.50140061" />
-      </g>
-      <text
-         sodipodi:linespacing="125%"
-         id="text8452-3-0-0"
-         y="1102.2325"
-         x="846.75555"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:60px;line-height:125%;font-family:Comfortaa;-inkscape-font-specification:'Comfortaa, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#3765a3;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><tspan
-           y="1102.2325"
-           x="846.75555"
-           id="tspan8554"
-           sodipodi:role="line">facebook</tspan></text>
-    </g>
+    <rect
+       style="opacity:1;fill:#3765a3;fill-opacity:1;stroke:none;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect8155-11-0-9"
+       width="53.415501"
+       height="53.415501"
+       x="792.00995"
+       y="1048.7657"
+       ry="8.9251375" />
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect8155-1-3-9-88-1"
+       width="35.231499"
+       height="27.19523"
+       x="800.88855"
+       y="1059.1392"
+       ry="4.5440211" />
+    <rect
+       style="opacity:1;fill:#3765a3;fill-opacity:1;stroke:none;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect8155-8-7-4-0-3"
+       width="15.721583"
+       height="12.135507"
+       x="810.64349"
+       y="1066.6691"
+       ry="2.0277085" />
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect8091-4-5-6-1"
+       width="10.715025"
+       height="14.733158"
+       x="800.89148"
+       y="1078.3623"
+       ry="1.4127687" />
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect8091-1-9-8-2-7"
+       width="10.135543"
+       height="13.8829"
+       x="-201.50961"
+       y="1336.9943"
+       ry="1.3312371"
+       transform="matrix(0.66112085,-0.75027943,0.7156065,0.69850364,0,0)"
+       inkscape:transform-center-x="2.4635206"
+       inkscape:transform-center-y="0.51859141" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:60px;line-height:125%;font-family:Comfortaa;-inkscape-font-specification:'Comfortaa, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#3765a3;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="850.43408"
+       y="1098.9403"
+       id="text8452-3-0-0"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan8554"
+         x="850.43408"
+         y="1098.9403">facebook</tspan></text>
   </g>
 </svg>
